@@ -3,7 +3,7 @@
 $min = (int) readline("Informe o valor mínimo do intervalo: ");
 $max = (int) readline("Informe o valor máximo do intervalo: ");
 
-$numAleatorio = random_int($min, $max);
+$numAleatorio = rand($min, $max);
 $numTentativas = 0;
 
 do {
